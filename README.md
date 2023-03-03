@@ -3,7 +3,7 @@ Simple cli tool for sending messeges via sms or email
 
 ## Setup
 
-Build `docker-compose up -d --build app`.
+Build `docker-compose up -d --build`.
 
 Set ENV variables into `src/.env` file. You can copy `src/.env.example`. You need to set variables for Twilio: `TWILIO_ACCOUNT_SID, TWILIO_ACCOUNT_PHONE_NUMBER, TWILIO_AUTH_TOKEN` and variables for Mailgun: `MAILGUN_PRIVATE_API_KEY, MAILGUN_API_HOSTNAME, MAILGUN_DOMAIN`.
 
